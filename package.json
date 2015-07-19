@@ -1,0 +1,11 @@
+{
+  "name": "ReactNativeYoutube",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "moment": "^2.10.3",
+    "react-native": "^0.7.1"
+  }
+}
