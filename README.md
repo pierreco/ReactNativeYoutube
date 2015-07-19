@@ -23,11 +23,25 @@ $ npm install
 ### How to run with Simulator
 1) Open `ReactYoutube.xcodeproj` with Xcode
 
-2) Run Project with simulator `CMD + R`
+2) Select your simulator and run with Xcode `CMD + R`
 
-### How to debug
+### How to debug with Simulator
 1) `CMD + D` in a simulator and select `Debug in Chrome`
+
 2) Open `http://localhost:8081/debugger-ui` in your Chrome navigator
+
+### How to run with Device
+1) Close the terminal window that appeared (it will say React Packager)
+
+2) Open `iOS/AppDelegate.m`
+
+3) Uncomment `jsCodeLocation = [[NSBundle mainBundle] ...`
+
+4) Run the `react-native bundle `command in terminal from the root directory ReactNativeYoutube
+
+5) Select your device and run with Xcode `CMD + R`
+
+[See ReactNative documentation](http://facebook.github.io/react-native/docs/runningondevice.html)
 
 ### Use your Youtube Channel
 1) Connect to [Google Developer](https://console.developers.google.com/)
@@ -44,7 +58,7 @@ $ npm install
 
 ![create iOS key](http://i.imgur.com/irx3nPA.png)
 
-6)  Click to `Create`
+6)  Click on `Create`
 
 
 7) Configure  `config.js` 
