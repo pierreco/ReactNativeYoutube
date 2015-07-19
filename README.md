@@ -1,6 +1,9 @@
 #ReactNative Youtube Channel
 Create an application iOS for your Youtube Channel with [ReactNative](https://facebook.github.io/react-native/)
 
+![screen](http://g.recordit.co/pEIgXXbBTt.gif)
+
+
 ### Required
 * XCode 6.3
 * React-native
@@ -51,12 +54,9 @@ $ npm install
 - Copy your Youtube Channel id in field `channelId`
 
 ###TODO
-* Reload list videos
+* Reload list videos with scroll
 * Cache
 * Display Video native
-
-### Screenshoot
-![screen](http://g.recordit.co/pEIgXXbBTt.gif)
 
 
 ###Contact
