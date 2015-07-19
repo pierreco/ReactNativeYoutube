@@ -2,7 +2,7 @@
  
 var React = require('react-native');
 var VideoList = require('./VideosList');
-var Playlist = require('./PlayList');
+var Playlist = require('./Playlist');
 
  
 var {

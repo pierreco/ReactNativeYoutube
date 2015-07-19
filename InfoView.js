@@ -1,37 +1,31 @@
 'use strict';
  
 var React = require('react-native');
+var InfoView = require('./Info');
  
 var {
     StyleSheet,
-    View,
-    Text,
+    NavigatorIOS,
     Component
    } = React;
  
 var styles = StyleSheet.create({
-    description: {
-        fontSize: 20,
-        backgroundColor: 'white'
-    },
     container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center'
+        flex: 1
     }
 });
  
-class InfoView extends Component {
+class Search extends Component {
     render() {
         return (
-        <View style={styles.container}>
-            <Text style={styles.description}>
-              Twitter : @pierre_co
-            </Text>
-        </View>           
+            <NavigatorIOS
+                style={styles.container}
+                initialRoute={{
+            title: 'Informations',
+            component: InfoView
+        }}/>            
         );
     }
 }
-
  
-module.exports = InfoView;
+module.exports = Search;

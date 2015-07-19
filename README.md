@@ -1,7 +1,8 @@
 #ReactNative Youtube Channel
 Create an application iOS for your Youtube Channel with [ReactNative](https://facebook.github.io/react-native/)
-
-![screen](http://g.recordit.co/pEIgXXbBTt.gif)
+<p align="center">
+    <img src ="http://g.recordit.co/pEIgXXbBTt.gif" />
+</p>
 
 
 ### Required
